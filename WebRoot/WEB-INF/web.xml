@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>joke</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRegister</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.UserRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReceiveUserPic</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.ReceiveUserPic</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyUserInfo</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.ModifyUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetJokes</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.GetJokes</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetInfoById</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.GetInfoById</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PublishJoke</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.PublishJoke</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PublishNoImgJoke</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.PublishNoImgJoke</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserCollect</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.UserCollect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLook</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.UserLook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserCollect</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.GetUserCollect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserAboutJokes</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.GetUserAboutJokes</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Question</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.Question</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTopJokes</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.GetTopJokes</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertComment</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.InsertComment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetComments</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.GetComments</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTheLastBanben</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.GetTheLastBanben</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Zan</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.Zan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jubao</servlet-name>
+    <servlet-class>com.jiyi.joke.servlet.Jubao</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserRegister</servlet-name>
+    <url-pattern>/servlet/UserRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/servlet/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReceiveUserPic</servlet-name>
+    <url-pattern>/servlet/ReceiveUserPic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyUserInfo</servlet-name>
+    <url-pattern>/servlet/ModifyUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetJokes</servlet-name>
+    <url-pattern>/servlet/GetJokes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetInfoById</servlet-name>
+    <url-pattern>/servlet/GetInfoById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PublishJoke</servlet-name>
+    <url-pattern>/servlet/PublishJoke</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PublishNoImgJoke</servlet-name>
+    <url-pattern>/servlet/PublishNoImgJoke</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserCollect</servlet-name>
+    <url-pattern>/servlet/UserCollect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLook</servlet-name>
+    <url-pattern>/servlet/UserLook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserCollect</servlet-name>
+    <url-pattern>/servlet/GetUserCollect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserAboutJokes</servlet-name>
+    <url-pattern>/servlet/GetUserAboutJokes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Question</servlet-name>
+    <url-pattern>/servlet/Question</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTopJokes</servlet-name>
+    <url-pattern>/servlet/GetTopJokes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertComment</servlet-name>
+    <url-pattern>/servlet/InsertComment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetComments</servlet-name>
+    <url-pattern>/servlet/GetComments</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTheLastBanben</servlet-name>
+    <url-pattern>/servlet/GetTheLastBanben</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Zan</servlet-name>
+    <url-pattern>/servlet/Zan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jubao</servlet-name>
+    <url-pattern>/servlet/Jubao</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
