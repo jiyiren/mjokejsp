@@ -1,4 +1,4 @@
-# mjokejsp
+# mjokejsp--mjoke后台
 
 > mjoke app的后台，纯java servlet后台，未使用框架，主要对于数据库增、删、改、查操作。
 
@@ -64,4 +64,5 @@ source D:/db_joke.sql
 
 * 乱码问题：一定要配置mysql的配置味觉my.ini,设置相应的编码，不然mjoke里发表的中文显示出来的是乱码。
 * 服务器tomcat部署问题，如果将项目部署在tomcat的webapps下面而非ROOT目录下，则项目根目录在**ip:端口/mjoke**下面，如果直接部署在webapps/ROOT下，则直接访问**ip:端口**就是项目根目录。
+
 
