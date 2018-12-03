@@ -2,3 +2,4 @@
 .project
 .DS_Store
 .settings
+WebRoot/WEB-INF/classes/dbconfig.properties
